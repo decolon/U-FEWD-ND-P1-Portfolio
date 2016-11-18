@@ -3,7 +3,7 @@
 	font-family: 'Quicksand', sans-serif;
 }
 
-.container-fluid {
+body {
 	min-width: 320px;
 	max-width: 1000px;
 }

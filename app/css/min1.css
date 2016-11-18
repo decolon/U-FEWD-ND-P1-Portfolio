@@ -29,14 +29,12 @@
 	}
 
 	.title-text {
-		padding: 0px;
+		/*padding: 0px;*/
 	}
 
 	.main-img {
-		padding-left: 0px;
-		padding-right: 0px;
-		margin-right: 0px;
-		margin-left: 0px;
+		/*padding-left: 0px;*/
+		/*padding-right: 0px;*/
 	}
 
 	.past-work-header {
@@ -51,8 +49,8 @@
 	}
 
 	.work-img {
-		padding-left: 20px;
-		padding-right: 25px;
+		/*padding-left: 20px;*/
+		/*padding-right: 25px;*/
 	}
 
 	.work-title {
