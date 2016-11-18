@@ -1,0 +1,32 @@
+@media (min-width: 580px) {
+
+	.title-element {
+		margin-top: 3px;
+		margin-bottom: 0px;
+	}
+
+	.title-main {
+		font-size: 45px;
+		padding-top: 23px;
+	}
+
+	.title-sub {
+		font-size: 25px;
+	}
+
+	.past-work-header {
+		font-size: 45px;
+	}
+
+	.work-example {
+		margin-top: 30px;
+	}
+
+	.work-title {
+		font-size: 33px;
+	}
+
+	.work-description {
+		font-size: 18px;
+	}
+}

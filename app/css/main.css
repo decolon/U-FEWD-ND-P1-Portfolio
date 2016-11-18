@@ -1,0 +1,19 @@
+* {
+	box-sizing: border-box;
+	font-family: 'Quicksand', sans-serif;
+}
+
+.container-fluid {
+	min-width: 320px;
+	max-width: 1000px;
+}
+
+.main-img {
+	max-height: 500px;
+}
+
+hr {
+	max-width: 970px;
+}
+
+

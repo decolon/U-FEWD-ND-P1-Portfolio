@@ -1,0 +1,85 @@
+@media (min-width: 1px) {
+
+    .topRow {
+    	margin-top: 10px;
+    }
+
+	.title-element {
+		margin-top: 3px;
+		margin-bottom: 0px;
+	}
+
+	.title-main {
+		font-size: 25px;
+		text-align: right;
+		padding-top: 10px;
+		margin-top: 0px;
+		color: #2d3c49;
+	}
+
+	.title-sub {
+		font-size: 13px;
+		text-align: right;
+		color: #2d3c49;
+	}
+
+	.title-img {
+		max-width: 150px;
+		height: auto;
+	}
+
+	.title-text {
+		padding: 0px;
+	}
+
+	.main-img {
+		padding-left: 0px;
+		padding-right: 0px;
+		margin-right: 0px;
+		margin-left: 0px;
+	}
+
+	.past-work-header {
+		text-align: center;
+		font-size: 23px;
+		margin-bottom: 0px;
+		color: #7d97ad;
+	}
+
+	.work-example {
+		margin-top: 20px;
+	}
+
+	.work-img {
+		padding-left: 20px;
+		padding-right: 25px;
+	}
+
+	.work-title {
+		text-align: center;
+		font-size: 20px;
+	}
+
+	.work-description {
+		text-align: center;
+		word-wrap: break-word;
+		font-size: 10px;
+		margin-bottom: 40px;
+	}
+
+	.topRule {
+		margin-top: 5px;
+		border-top: 1.5px solid;
+		border-color: #7d97ad;
+		box-shadow: 0px 0px 1px #888;
+		margin-bottom: 10px;
+	}
+
+	.bottomRule {
+		margin-top: 10px;
+		border-top: 1.5px solid;
+		border-color: #7d97ad;
+		box-shadow: 0px 0px 1px #888;
+		margin-bottom: 10px;
+	}
+}

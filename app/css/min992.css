@@ -1,0 +1,30 @@
+@media (min-width: 992px) {
+
+	body {
+		margin: 0px auto;
+	}
+
+	.past-work-header {
+		font-size: 40px;
+		padding-left: 30px;
+		margin-top: 30px;
+	}
+
+	.bottomRule {
+		display: none;
+	}
+
+	.work-title {
+		font-size: 30px;
+		border-style: none;
+		padding-bottom: 0px;
+	}
+
+	.work-description {
+		font-size: 12px;
+	}
+
+	.work-example {
+		margin-top: 10px;
+	}
+}

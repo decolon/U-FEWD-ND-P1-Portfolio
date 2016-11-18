@@ -1,0 +1,31 @@
+@media (min-width: 421px) {
+
+
+	.title-main {
+		font-size: 33px;
+		padding-top: 7px;
+	}
+
+	.title-sub {
+		font-size: 19px;
+	}
+
+	.past-work-header {
+		text-align: center;
+		font-size: 30px;
+		margin-bottom: 0px;
+		color: #7d97ad;
+	}
+
+	.work-example {
+		margin-top: 10px;
+	}
+
+	.work-title {
+		font-size: 25px;
+	}
+
+	.work-description {
+		font-size: 13px;
+	}
+}

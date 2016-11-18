@@ -1,0 +1,22 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio Site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "Daniel Colon",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2"
+  }
+}
