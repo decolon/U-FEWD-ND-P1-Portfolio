@@ -1,19 +1,19 @@
 @media (min-width: 1px) {
 
-    .topRow {
+    .top-row {
     	margin-top: 10px;
     }
 
 	.title-element {
 		margin-top: 3px;
-		margin-bottom: 0px;
+		margin-bottom: 0;
 	}
 
 	.title-main {
 		font-size: 25px;
 		text-align: right;
 		padding-top: 10px;
-		margin-top: 0px;
+		margin-top: 0;
 		color: #2d3c49;
 	}
 
@@ -31,7 +31,7 @@
 	.past-work-header {
 		text-align: center;
 		font-size: 23px;
-		margin-bottom: 0px;
+		margin-bottom: 0;
 		color: #7d97ad;
 	}
 
@@ -51,19 +51,19 @@
 		margin-bottom: 40px;
 	}
 
-	.topRule {
+	.top-rule {
 		margin-top: 5px;
 		border-top: 1.5px solid;
 		border-color: #7d97ad;
-		box-shadow: 0px 0px 1px #888;
+		box-shadow: 0 0 1px #888;
 		margin-bottom: 10px;
 	}
 
-	.bottomRule {
+	.bottom-rule {
 		margin-top: 10px;
 		border-top: 1.5px solid;
 		border-color: #7d97ad;
-		box-shadow: 0px 0px 1px #888;
+		box-shadow: 0 0 1px #888;
 		margin-bottom: 10px;
 	}
 }
