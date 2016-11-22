@@ -2,30 +2,10 @@
 
 	.past-work-header {
 		text-align: left;
+		padding-left: 10px;
 	}
 
 	.work-title {
-		border-style: solid;
 		padding-bottom: 9px;
-		border-bottom-width: 1px;
-		border-left-width: 0px;
-		border-top-width: 0px;
-		border-right-width: 0px;
 	}
-
-/*	.topRow {
-		background-color: red;
-	}
-
-	.col-sm-9 {
-		background-color: blue;
-	}
-
-	.col-sm-3 {
-		background-color: green;
-	}
-
-	.container-fluid {
-		background-color: yellow;
-	}*/
 }

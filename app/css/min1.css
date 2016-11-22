@@ -25,16 +25,7 @@
 
 	.title-img {
 		max-width: 140px;
-		height: auto;
-	}
-
-	.title-text {
-		/*padding: 0px;*/
-	}
-
-	.main-img {
-		/*padding-left: 0px;*/
-		/*padding-right: 0px;*/
+		width: 100%;
 	}
 
 	.past-work-header {
@@ -46,11 +37,6 @@
 
 	.work-example {
 		margin-top: 20px;
-	}
-
-	.work-img {
-		/*padding-left: 20px;*/
-		/*padding-right: 25px;*/
 	}
 
 	.work-title {

@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<title>My Portfolio Site</title>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>My Portfolio Site</title>
 	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
 	<link rel="stylesheet" href="app/bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" href="app/css/main.css">
@@ -18,85 +18,94 @@
 
 <div class="container-fluid">
 	<div class="row topRow">
-		<div class="col-xs-3 col-sm-3 col-md-2">
-			<img class="title-img" src="app/img/logo.svg" alt="Personal Logo">
+		<div class="col-xs-3 col-md-2">
+			<img class="title-img img-responsive" src="app/img/logo.svg" alt="Personal Logo">
 		</div>
-		<div class="title-text col-xs-9 col-sm-9 col-md-10">
+		<div class="title-text col-xs-9 col-md-10">
 			<h1 class="title-element title-main text-uppercase">Daniel Col&oacute;n</h1>
 			<h2 class="title-element title-sub text-uppercase">Mechanical Coder</h2>
 		</div>
 	</div>
 
 	<div class="row">
-		<hr class="topRule"\>
+		<div class="col-xs-12">
+			<hr class="topRule">
+		</div>
 	</div>
 
 	<div class="row">
 		<div class="col-xs-12">
 			<picture>
-				<source srcset="http://placekitten.com/g/800/400 800w, http://placekitten.com/g/600/300 600w" sizes="(max-width: 979px) 100vw, (min-width: 980px) 100vw">
+				<source srcset="http://placekitten.com/g/800/400 800w, http://placekitten.com/g/600/300 600w" 
+				sizes="(min-width: 1px) 100vw">
 				<img class="main-img img-responsive" src="http://placekitten.com/g/500/200" alt="Kitten Picture">
 			</picture>	
 		</div>
 	</div>
 
 	<div class="row">
-		<hr class="bottomRule"\>
+		<div class="col-xs-12">
+			<hr class="bottomRule">
+		</div>
 	</div>
 
 	<div class="row">
 		<div class="col-xs-12">
-			<h3 class="past-work-header col-xs-12">Featured Work</h3>
+			<h3 class="past-work-header">Featured Work</h3>
 		</div>
 	</div>
 
 	<div class="row">
-		<div class="work-example col-xs-12 col-sm-12 col-md-4">
-			<div class="row inner-row">
+
+		<div class="work-example col-xs-12 col-md-4">
+			<div class="row">
 				<div class="col-xs-12 col-sm-8 col-md-12">
 					<picture>
-						<source srcset="http://placebear.com/g/600/400 600w, http://placebear.com/g/300/150 300w" size="(max-width:767px) 50vw">
-						<img class="work-img img-responsive" src="http://placebear.com/g/300/200" alt="Kitten 1">
+						<source srcset="http://placebear.com/g/600/400 600w, http://placebear.com/g/300/150 300w"
+						sizes="(min-width: 1px) 100vw, (min-width: 768px) 75vw, (min-width: 992px) 33vw">
+						<img class="work-img img-responsive" src="http://placebear.com/g/300/200" alt="Bear 1">
 					</picture>				
 				</div>	
-				<div class="work-text col-xs-12 col-md-12 col-sm-4">
+				<div class="work-text col-xs-12 col-sm-4 col-md-12">
 					<h4 class="work-title">First Work</h4>
-					<p class="work-description">https://www.github.com/udacity/project1/</p>
+					<p class="work-description">This is the first thing I worked on</p>
 				</div>		
 			</div>
 		</div>
 
-		<div class="work-example col-xs-12 col-sm-12 col-md-4">
-			<div class="row inner-row">
-				<divi class="col-xs-12 col-sm-8 col-md-12">
+		<div class="work-example col-xs-12 col-md-4">
+			<div class="row">
+				<div class="col-xs-12 col-sm-8 col-md-12">
 					<picture>
-						<source srcset="http://placekitten.com/g/600/400 600w, http://placekitten.com/g/300/150 300w" size="(max-width:767px) 50vw">
+						<source srcset="http://placekitten.com/g/600/400 600w, http://placekitten.com/g/300/150 300w"
+						sizes="(min-width: 1px) 100vw, (min-width: 768px) 75vw, (min-width: 992px) 33vw">
 						<img class="work-img img-responsive" src="http://placekitten.com/g/300/200" alt="Kitten 1">
+					</picture>				
+				</div>	
+				<div class="work-text col-xs-12 col-sm-4 col-md-12">
+					<h4 class="work-title">Second Work</h4>
+					<p class="work-description">This is the second thing I worked on</p>
+				</div>			
+			</div>
+		</div>
+
+		<div class="work-example col-xs-12 col-md-4">
+			<div class="row">
+				<div class="col-xs-12 col-sm-8 col-md-12">
+					<picture>
+						<source srcset="http://placebear.com/g/600/400 600w, http://placebear.com/g/300/150 300w"
+						sizes="(min-width: 1px) 100vw, (min-width: 768px) 75vw, (min-width: 992px) 33vw">
+						<img class="work-img img-responsive" src="http://placebear.com/g/300/200" alt="Bear 2">
 					</picture>			
 				</div>
-				<div class="work-text col-xs-12 col-md-12 col-sm-4">
-					<h4 class="work-title">Second Work</h4>
-					<p class="work-description">https://www.github.com/udacity/project1/</p>
+				<div class="work-text col-xs-12 col-sm-4 col-md-12">
+					<h4 class="work-title">Third Work</h4>
+					<p class="work-description">This is the third thing I worked on</p>		
 				</div>
 			</div>
 		</div>
 
-		<div class="work-example col-xs-12 col-sm-12 col-md-4">
-			<div class="row inner-row">
-				<div class="col-xs-12 col-sm-8 col-md-12">
-					<picture>
-						<source srcset="http://placebear.com/g/600/400 600w, http://placebear.com/g/300/150 300w" size="(max-width:767px) 50vw">
-						<img class="work-img img-responsive" src="http://placebear.com/g/300/200" alt="Kitten 1">
-					</picture>			
-				</div>
-				<div class="work-text col-xs-12 col-md-12 col-sm-4">
-					<h4 class="work-title">Third Work</h4>
-					<p class="work-description">https://www.github.com/udacity/project1/</p>		
-				</div>
-			</div>
-		</div>
 	</div>
 </div>
-<footer></fooer>
 </body>
 </html>
