@@ -2,8 +2,9 @@ var gulp = require('gulp'),
 	livereload = require('gulp-livereload'),
 	cssmin = require('gulp-cssmin'),
 	htmlmin = require('gulp-htmlmin'),
-	rename = require('gulp-rename');
-	plumber = require('gulp-plumber')
+	rename = require('gulp-rename'),
+	plumber = require('gulp-plumber'),
+	concat = require('gulp-concat');
 
 
 livereload.listen();
@@ -17,8 +18,9 @@ gulp.task('watchCss', function()
 
 gulp.task('styleMin', function()
 {
-	gulp.src('app/**/*.css')
+	gulp.src('app/css/*.css')
 		.pipe(plumber())
+		.pipe(concat('all.css'))
 		.pipe(cssmin())
 		.pipe(rename({suffix: '.min'}))
 		.pipe(gulp.dest('public/dist'))
